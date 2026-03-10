@@ -20,4 +20,12 @@ export interface CafeConfig {
     image: string;
   }[];
 
+  contact: {
+    address: string;
+    phone: string;
+    email: string;
+    hours: string;
+    mapEmbed: string;
+  };
+
 }

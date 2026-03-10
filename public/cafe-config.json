@@ -19,5 +19,12 @@
     { "image": "gallery2.jpg" },
     { "image": "gallery3.jpg" },
     { "image": "gallery4.jpg" }
-  ]
+  ],
+  "contact": {
+    "address": "Alkapuri, Vadodara, Gujarat",
+    "phone": "+91 9876543210",
+    "email": "brewbean@gmail.com",
+    "hours": "Mon - Sun : 9 AM - 10 PM",
+    "mapEmbed": "https://maps.google.com/maps?q=Vadodara&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  }
 }
