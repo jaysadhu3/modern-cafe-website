@@ -1,0 +1,23 @@
+<section
+  class="min-h-[90vh] flex items-center justify-center bg-white"
+  *ngIf="config$ | async as config"
+>
+  <div class="max-w-3xl text-center px-6">
+
+    <h1 class="font-heading text-4xl md:text-6xl text-gray-900 leading-tight">
+      {{ config.hero.headline }}
+    </h1>
+
+    <p class="mt-6 text-gray-600 text-lg">
+      {{ config.hero.subtext }}
+    </p>
+
+    <button
+      class="mt-10 px-8 py-3 border border-coffee text-coffee
+             hover:bg-coffee hover:text-white transition text-sm"
+    >
+      {{ config.hero.ctaText }}
+    </button>
+
+  </div>
+</section>

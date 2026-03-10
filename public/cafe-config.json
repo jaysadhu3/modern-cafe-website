@@ -1,0 +1,29 @@
+{
+  "branding": {
+    "name": "Brew & Bean",
+    "tagline": "Modern Coffee. Timeless Taste."
+  },
+  "hero": {
+    "headline": "Your Daily Coffee Ritual",
+    "subtext": "Minimal space. Premium beans. Perfectly brewed coffee.",
+    "ctaText": "Visit the Café"
+  },
+  "menu": [
+    {
+      "name": "Espresso",
+      "price": 110
+    },
+    {
+      "name": "Cappuccino",
+      "price": 130
+    },
+    {
+      "name": "Latte",
+      "price": 140
+    },
+    {
+      "name": "Cold Brew",
+      "price": 160
+    }
+  ]
+}

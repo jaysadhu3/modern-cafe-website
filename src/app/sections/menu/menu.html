@@ -1,0 +1,33 @@
+<section class="py-24 bg-beige" *ngIf="config$ | async as config">
+
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-3xl md:text-4xl font-heading text-center text-gray-900">
+      Signature Coffee
+    </h2>
+
+    <p class="text-center text-gray-600 mt-4">
+      Crafted with passion and premium beans
+    </p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
+
+      <div
+        *ngFor="let item of config.menu"
+        class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition"
+      >
+        <h3 class="font-semibold text-lg text-gray-800">
+          {{ item.name }}
+        </h3>
+
+        <p class="text-coffee mt-2 font-medium">
+          ₹ {{ item.price }}
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
