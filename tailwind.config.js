@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        coffee: "#6F4E37",
-        beige: "#EDE6DB"
+        coffee: "#4A2C2A",
+        cocoa: "#6B3E2E",
+        beige: "#F5EFEA"
       },
       fontFamily: {
         heading: ["Playfair Display", "serif"],

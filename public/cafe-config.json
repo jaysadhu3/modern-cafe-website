@@ -1,18 +1,18 @@
 {
   "branding": {
-    "name": "Brew & Bean",
-    "tagline": "Modern Coffee. Timeless Taste."
+    "name": "Zenfeast",
+    "tagline": "Cocoa & Coffee Experience"
   },
   "hero": {
-    "headline": "Your Daily Coffee Ritual",
-    "subtext": "Minimal space. Premium beans. Perfectly brewed coffee.",
-    "ctaText": "Visit the Café"
+    "headline": "Welcome to Zenfeast",
+    "subtext": "Where rich cocoa meets freshly brewed coffee.",
+    "ctaText": "Visit Zenfeast"
   },
   "menu": [
-    { "name": "Espresso", "price": 110 },
-    { "name": "Cappuccino", "price": 130 },
-    { "name": "Latte", "price": 140 },
-    { "name": "Cold Brew", "price": 160 }
+    { "name": "Classic Espresso", "price": 120 },
+    { "name": "Cappuccino", "price": 150 },
+    { "name": "Dark Cocoa Latte", "price": 170 },
+    { "name": "Iced Cocoa Coffee", "price": 180 }
   ],
   "gallery": [
     { "image": "gallery1.jpg" },
@@ -21,10 +21,10 @@
     { "image": "gallery4.jpg" }
   ],
   "contact": {
-    "address": "Alkapuri, Vadodara, Gujarat",
+    "address": "Vadodara, Gujarat",
     "phone": "+91 9876543210",
-    "email": "brewbean@gmail.com",
-    "hours": "Mon - Sun : 9 AM - 10 PM",
-    "mapEmbed": "https://maps.google.com/maps?q=Vadodara&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    "email": "contact@zenfeast.com",
+    "hours": "Mon - Sun : 9 AM - 11 PM",
+    "mapEmbed": "https://www.google.com/maps?q=Vadodara&output=embed"
   }
 }
