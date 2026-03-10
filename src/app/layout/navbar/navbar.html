@@ -8,15 +8,30 @@
 
     <!-- Links -->
     <div class="hidden md:flex gap-8 text-sm font-medium">
-      <a class="hover:text-coffee transition" href="#">Menu</a>
-      <a class="hover:text-coffee transition" href="#">About</a>
-      <a class="hover:text-coffee transition" href="#">Gallery</a>
-      <a class="hover:text-coffee transition" href="#">Contact</a>
+      <a class="hover:text-coffee transition" href="#menu">Menu</a>
+      <a class="hover:text-coffee transition" href="#gallery">Gallery</a>
+      <a class="hover:text-coffee transition" href="#contact">Contact</a>
     </div>
 
+    <button class="md:hidden" (click)="toggleMenu()">
+      ☰
+    </button>
+    <!-- Mobile Menu -->
+    @if (menuOpen) {
+    <div class="md:hidden bg-white border-t">
+
+      <a href="#menu" class="block px-6 py-3">Menu</a>
+      <a href="#gallery" class="block px-6 py-3">Gallery</a>
+      <a href="#contact" class="block px-6 py-3">Contact</a>
+
+    </div>
+    }
+
     <!-- CTA -->
-    <button class="hidden md:block px-4 py-2 text-sm border border-coffee text-coffee hover:bg-coffee hover:text-white transition">
+    <button
+      class="hidden md:block px-4 py-2 text-sm border border-coffee text-coffee hover:bg-coffee hover:text-white transition">
       Visit Us
     </button>
   </div>
+
 </nav>
