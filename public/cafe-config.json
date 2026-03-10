@@ -9,21 +9,15 @@
     "ctaText": "Visit the Café"
   },
   "menu": [
-    {
-      "name": "Espresso",
-      "price": 110
-    },
-    {
-      "name": "Cappuccino",
-      "price": 130
-    },
-    {
-      "name": "Latte",
-      "price": 140
-    },
-    {
-      "name": "Cold Brew",
-      "price": 160
-    }
+    { "name": "Espresso", "price": 110 },
+    { "name": "Cappuccino", "price": 130 },
+    { "name": "Latte", "price": 140 },
+    { "name": "Cold Brew", "price": 160 }
+  ],
+  "gallery": [
+    { "image": "gallery1.jpg" },
+    { "image": "gallery2.jpg" },
+    { "image": "gallery3.jpg" },
+    { "image": "gallery4.jpg" }
   ]
 }

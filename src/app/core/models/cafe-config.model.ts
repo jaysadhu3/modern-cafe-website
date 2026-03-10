@@ -1,4 +1,5 @@
 export interface CafeConfig {
+
   branding: {
     name: string;
     tagline: string;
@@ -14,4 +15,9 @@ export interface CafeConfig {
     name: string;
     price: number;
   }[];
+
+  gallery: {
+    image: string;
+  }[];
+
 }
